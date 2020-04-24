@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PREMO APPS | Invoice</title>
+    <title>PEREMO APPS | Invoice</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap 4 -->
@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="page-header">
-                        <i class="fas fa-globe"></i> PREMO APPS
+                        <i class="fas fa-globe"></i> PEREMO APPS
                     </h2>
                 </div>
                 <!-- /.col -->

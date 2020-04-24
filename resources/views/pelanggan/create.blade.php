@@ -29,8 +29,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="foto_ktp">Foto KTP</label>
-                        <input type="file" name="foto_ktp" class="form-control">
+                        <label for="customFile">Foto KTP</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile" name="foto_ktp" required>
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="alamat_karyawan">Alamat Pelanggan</label>

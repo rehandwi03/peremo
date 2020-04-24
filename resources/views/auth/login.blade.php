@@ -23,13 +23,19 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href=""><b>PREMO</b> APPS</a>
+            <a href=""><b>PEREMO</b> APPS</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
                 <div class="text-center">
                     {{-- <img src="{{ asset('icon/rent-a-car.png') }}" alt="" width="70"> --}}
+                    @if ($message = Session::get('error'))
+                    <div class="alert alert-danger alert-block">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>{{ $message }}</strong>
+                    </div>
+                    @endif
                 </div>
                 <p class="login-box-msg">Sign in to start your session</p>
                 <form action="{{ route('login') }}" method="post">

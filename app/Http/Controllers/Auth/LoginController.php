@@ -53,7 +53,8 @@ class LoginController extends Controller
             return redirect()->route('home')->with([
                 'success' => 'Selamat Datang',
             ]);
+        } else {
+            return redirect()->back()->with(['error' => 'Login Gagal']);
         }
-        return redirect()->back()->with(['error' => 'Login Gagal']);
     }
 }

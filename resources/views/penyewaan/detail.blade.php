@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-12">
                             <h4>
-                                <i class="fas fa-globe"></i> PREMO APPS
+                                <i class="fas fa-globe"></i> PEREMO APPS
                                 <small class="float-right">
                                     @if ($penyewaan->status_sewa != 0)
                                     <button class="btn btn-sm btn-info" data-toggle="modal"

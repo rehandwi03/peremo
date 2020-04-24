@@ -42,8 +42,11 @@
                         <input type="number" name="jumlah_unit" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Foto Mobil</label>
-                        <input type="file" name="foto_mobil" class="form-control" required>
+                        <label for="customFile">Foto Mobil</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile" name="foto_mobil" required>
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
                     </div>
                     <button type="button" class="btn btn-default float-left" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary float-right">Submit</button>
