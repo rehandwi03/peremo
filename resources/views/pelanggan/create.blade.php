@@ -11,19 +11,19 @@
                     @csrf
                     <div class="form-group">
                         <label for="nama_karyawan">Nama Pelanggan</label>
-                        <input type="text" name="nama_pelanggan" class="form-control">
+                        <input type="text" name="nama_pelanggan" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="no_telp">Nomor Telepon</label>
-                        <input type="number" name="nomor_telp" class="form-control">
+                        <input type="number" name="nomor_telp" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="no_telp">Email Pelanggan</label>
-                        <input type="email" name="email_pelanggan" class="form-control">
+                        <input type="email" name="email_pelanggan" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="jenis_kelamin">Jenis Kelamin</label>
-                        <select name="jenis_kelamin" class="form-control">
+                        <select name="jenis_kelamin" class="form-control" required>
                             <option value="Pria">Pria</option>
                             <option value="Wanita">Wanita</option>
                         </select>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="form-group">
                         <label for="alamat_karyawan">Alamat Pelanggan</label>
-                        <textarea name="alamat_pelanggan" cols="30" rows="10" class="form-control"></textarea>
+                        <textarea name="alamat_pelanggan" cols="30" rows="10" class="form-control" required></textarea>
                     </div>
                     <button type="button" class="btn btn-default float-left" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary float-right">Submit</button>
